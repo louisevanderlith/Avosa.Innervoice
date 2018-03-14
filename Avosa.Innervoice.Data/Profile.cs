@@ -19,5 +19,9 @@ namespace Avosa.Innervoice.Data
         public List<Contact> ContactDetails { get; set; }
 
         public Guid LogoID { get; set; }
+
+        public List<Client> Clients { get; set; }
+
+        public List<Quote> Quotes { get; set; }
     }
 }

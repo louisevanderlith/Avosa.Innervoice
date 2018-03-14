@@ -48,6 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EnumFunctions.cs" />
     <Compile Include="Confirmer.cs" />
     <Compile Include="IManageProfile.cs" />
     <Compile Include="IStorage.cs" />

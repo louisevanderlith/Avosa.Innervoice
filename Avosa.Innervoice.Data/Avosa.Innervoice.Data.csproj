@@ -53,6 +53,7 @@
     <Compile Include="BaseRecord.cs" />
     <Compile Include="Client.cs" />
     <Compile Include="Contact.cs" />
+    <Compile Include="ContactType.cs" />
     <Compile Include="LineItem.cs" />
     <Compile Include="Profile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -3,6 +3,6 @@
     public enum AddressType
     {
         Postal,
-        Delivery
+        Physical
     }
 }
