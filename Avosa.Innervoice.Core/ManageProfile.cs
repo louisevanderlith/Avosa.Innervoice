@@ -1,5 +1,6 @@
 ﻿using Avosa.Innervoice.Data;
 using System;
+using System.Linq;
 
 namespace Avosa.Innervoice.Core
 {
@@ -27,6 +28,11 @@ namespace Avosa.Innervoice.Core
             }
 
             return result;
+        }
+
+        public Profile GetProfile()
+        {
+            return _context.Profiles.FirstOrDefault(a => !a.IsDeleted);
         }
     }
 }
